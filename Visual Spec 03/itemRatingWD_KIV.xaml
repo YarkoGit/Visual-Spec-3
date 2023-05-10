@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="Visual_Spec_03.itemRatingWD_KIV"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Visual_Spec_03"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="983" Height="332">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="489*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="24*"/>
+            <RowDefinition/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="28*"/>
+            <RowDefinition Height="28*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="26*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="imageLABEL_RATING_LAYOUT" Margin="0" Grid.RowSpan="12" Grid.ColumnSpan="18" RenderOptions.BitmapScalingMode="HighQuality" Source="WD_KIV.PNG"/>
+        <Label x:Name="labelBuyerModel" Grid.ColumnSpan="9" Content="-" Grid.Column="8" Grid.Row="1" FontSize="31" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" Margin="1,0,0,0"/>
+        <Label x:Name="labelModel" Grid.ColumnSpan="12" Content="-" Grid.Column="5" Grid.Row="3" FontSize="20" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial"/>
+        <Label x:Name="labelVoltage" Grid.ColumnSpan="2" Content="-" Grid.Column="1" Grid.Row="5" FontSize="30" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label x:Name="labelFrequency" Content="-" Grid.Column="5" Grid.Row="5" FontSize="30" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="labelLoadCapa" Content="-" Grid.Column="11" Grid.Row="7" FontSize="26" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Margin="0"/>
+        <Label x:Name="labelW" Content="-" Grid.Column="1" Grid.Row="10" FontSize="28" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label x:Name="labelD" Content="-" Grid.Column="4" Grid.Row="10" FontSize="28" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="labelH" Content="-" Grid.Column="10" Grid.Row="10" FontSize="28" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center" Grid.ColumnSpan="3"/>
+        <Label x:Name="labelCurrent" Content="-" Grid.Column="10" Grid.Row="5" FontSize="30" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="labelLoadCapaDry" Content="-" Grid.Column="11" Grid.Row="8" FontSize="26" Padding="0" VerticalContentAlignment="Center" FontWeight="SemiBold" FontFamily="Arial" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</UserControl>
